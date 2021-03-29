@@ -1,7 +1,7 @@
 from pdf2image import convert_from_path
 
 pdfs = r"application-pdf.pdf"
-pages = convert_from_path(pdfs, 18)
+pages = convert_from_path(pdfs, 800)
 
 i = 1
 for page in pages:
